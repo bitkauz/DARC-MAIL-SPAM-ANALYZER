@@ -15,5 +15,22 @@
       "Der Anzeigename „Fuugu“ steht im sichtbaren Absenderfeld. Die dort sichtbare Domain belegt für sich allein keine Verbindung zur Marke.",
       "Die Mail kam laut Empfänger im DARC-Postfach an. Im sichtbaren An-Feld steht eine andere Adresse. Der Zustellweg, die Authentifizierung und das Ziel des Werbelinks bleiben anhand des Ausschnitts offen."
     ]
+  },
+  {
+    "id": "2026-002",
+    "sent": "2026-11-25T09:51:02+01:00",
+    "category": "Werbespam",
+    "subject": "*** SPAM *** Vergessen Sie das Schrubben der Toilette!",
+    "sender": "Fuugu",
+    "domain": "skin-care[.]boats",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "summary": "Die Mail bewirbt einen schäumenden Toilettenreiniger. Der Textauszug endet mit einem Werbeaufruf.",
+    "excerpt": "Weniger Aufwand, mehr Sauberkeit.\nEinfach Fuugu hineingeben, 20 Minuten warten und spülen.\nLassen Sie den Schaum die Arbeit erledigen! >>>",
+    "findings": [
+      "Betreff und vorliegender Textauszug stimmen mit Fall 2026-001 überein. Der sichtbare Anzeigename ist in beiden Fällen „Fuugu“, die sichtbaren Absenderdomains unterscheiden sich.",
+      "Die sichtbaren An-Adressen unterscheiden sich in beiden Fällen und weichen vom DARC-Postfach ab. Der Zustellweg und eine gemeinsame Versandquelle bleiben anhand der Ausschnitte offen.",
+      "Die Markierung „*** SPAM ***“ steht im übermittelten Betreff. Ihre Herkunft und das Ziel des Werbeaufrufs sind unbekannt."
+    ]
   }
 ]
