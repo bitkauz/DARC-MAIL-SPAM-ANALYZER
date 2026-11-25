@@ -1,0 +1,19 @@
+[
+  {
+    "id": "2026-001",
+    "sent": "2026-11-25T10:04:54+01:00",
+    "category": "Werbespam",
+    "subject": "*** SPAM *** Vergessen Sie das Schrubben der Toilette!",
+    "sender": "Fuugu",
+    "domain": "alixepreo[.]online",
+    "mailbox": "DARC-Postfach (laut Empfänger)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "summary": "Die Mail bewirbt einen schäumenden Toilettenreiniger und fordert zum Klick auf einen Werbeaufruf auf.",
+    "excerpt": "Weniger Aufwand, mehr Sauberkeit.\nEinfach Fuugu hineingeben, 20 Minuten warten und spülen.\nLassen Sie den Schaum die Arbeit erledigen! >>>",
+    "findings": [
+      "Der übermittelte Betreff enthält die Markierung „*** SPAM ***“. Welches System sie hinzugefügt hat, ist unbekannt.",
+      "Der Anzeigename „Fuugu“ steht im sichtbaren Absenderfeld. Die dort sichtbare Domain belegt für sich allein keine Verbindung zur Marke.",
+      "Die Mail kam laut Empfänger im DARC-Postfach an. Im sichtbaren An-Feld steht eine andere Adresse. Der Zustellweg, die Authentifizierung und das Ziel des Werbelinks bleiben anhand des Ausschnitts offen."
+    ]
+  }
+]

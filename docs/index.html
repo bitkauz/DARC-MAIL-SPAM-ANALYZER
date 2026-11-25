@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Öffentliches Fallarchiv für Spam-Mails, die in einem DARC-Postfach eingegangen sind.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>DARC Mail Spam Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-content">
+      <a class="brand" href="./"><span class="brand-icon" aria-hidden="true"></span>DARC Mail Spam Analyzer</a>
+      <nav aria-label="Hauptnavigation">
+        <a href="#archiv">Fallarchiv</a>
+        <a href="#projekt">Über das Projekt</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="shell hero-content">
+        <div>
+          <h1>Spam im<br>DARC-Postfach<span>.</span></h1>
+          <p>Dokumentierte Fälle mit Betreff, Absendermerkmalen und einer kurzen Einordnung.</p>
+        </div>
+        <dl class="stats" aria-label="Archivstatistik">
+          <div><dt>Dokumentierte Fälle</dt><dd id="total">–</dd></div>
+          <div><dt>Letztes Versanddatum</dt><dd id="latest">–</dd></div>
+        </dl>
+      </div>
+    </section>
+    <section id="archiv" class="shell archive" aria-labelledby="archive-title">
+      <h2 id="archive-title">Fallarchiv</h2>
+      <div class="filters">
+        <div>
+          <label for="search">Fälle durchsuchen</label>
+          <input id="search" type="search" placeholder="Betreff, Domain oder Fallnummer" disabled>
+        </div>
+        <div>
+          <label for="category">Kategorie</label>
+          <select id="category" disabled><option value="">Alle Kategorien</option></select>
+        </div>
+      </div>
+      <p id="result-status" role="status">Fälle werden geladen …</p>
+      <noscript>Aktiviere JavaScript, um das Fallarchiv anzuzeigen.</noscript>
+      <div id="cases" class="cases"></div>
+    </section>
+    <section id="projekt" class="shell about" aria-labelledby="project-title">
+      <h2 id="project-title">Über das Projekt</h2>
+      <p>Dieses private Projekt dokumentiert ausgewählte Spam-Mails aus einem DARC-Postfach. Die Fallzahlen beziehen sich auf die hier erfassten Nachrichten.</p>
+      <p>Im Archiv stehen gekürzte Auszüge als Klartext. Mailadressen bleiben ausgeblendet und sichtbare Absenderdomains erscheinen in entschärfter Schreibweise.</p>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <span>DARC Mail Spam Analyzer</span>
+    <a href="https://github.com/bitkauz/DARC-MAIL-SPAM-ANALYZER">Quellcode auf GitHub</a>
+  </footer>
+</body>
+</html>
