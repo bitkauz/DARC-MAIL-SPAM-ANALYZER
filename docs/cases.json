@@ -32,5 +32,39 @@
       "Die sichtbaren An-Adressen unterscheiden sich in beiden Fällen und weichen vom DARC-Postfach ab. Der Zustellweg und eine gemeinsame Versandquelle bleiben anhand der Ausschnitte offen.",
       "Die Markierung „*** SPAM ***“ steht im übermittelten Betreff. Ihre Herkunft und das Ziel des Werbeaufrufs sind unbekannt."
     ]
+  },
+  {
+    "id": "2026-003",
+    "category": "Werbespam",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "sent": "2026-11-19T14:49:24+01:00",
+    "subject": "Diese Kratzer lassen sich noch kaschieren.",
+    "sender": "NuraFix",
+    "domain": "arteo-host[.]store",
+    "summary": "Die Mail bewirbt ein Mittel zur Kaschierung von Kratzern im Autolack.",
+    "excerpt": "Die Nr. 1 Nano-Lösung gegen Kratzer.\nReparieren und schützen: die Komplettlösung für Ihre Autopflege.",
+    "findings": [
+      "Im übermittelten Betreff erscheint keine SPAM-Markierung. Ob ein Filter die Mail bewertet hat, geht aus dem Ausschnitt nicht hervor.",
+      "Am Ende steht „Opt Out“. Das Ziel eines möglichen Abmeldelinks ist unbekannt.",
+      "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
+    ]
+  },
+  {
+    "id": "2026-004",
+    "category": "Werbespam",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "sent": "2026-11-19T14:18:38+01:00",
+    "subject": "*** SPAM *** Anatomische Unterstützung für komfortables Gehen.",
+    "sender": "Akusoli",
+    "domain": "skin-care[.]boats",
+    "summary": "Die Mail bewirbt Einlegesohlen mit Belüftung und Massagezonen.",
+    "excerpt": "Akusoli – Belüftung und Massagezonen.\nAkusoli – Belüftung und Massagezonen.\nPassend für jede Schuhgröße.",
+    "findings": [
+      "Die sichtbare Absenderdomain stimmt mit Fall 2026-002 (Fuugu) überein. Die beworbenen Produkte und die sichtbaren Absenderadressen unterscheiden sich. Eine gemeinsame Versandquelle ist anhand der Ausschnitte nicht belegt.",
+      "Der übermittelte Betreff enthält „*** SPAM ***“. Welches System die Markierung hinzugefügt hat, bleibt offen.",
+      "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
+    ]
   }
 ]
