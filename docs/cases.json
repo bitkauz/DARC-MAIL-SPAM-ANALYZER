@@ -66,5 +66,59 @@
       "Der übermittelte Betreff enthält „*** SPAM ***“. Welches System die Markierung hinzugefügt hat, bleibt offen.",
       "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
     ]
+  },
+  {
+    "id": "2026-004",
+    "category": "Werbespam",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "sent": "2026-11-19T12:56:49+01:00",
+    "subject": "*** SPAM *** Anatomische Unterstützung für komfortables Gehen.",
+    "sender": "Akusoli",
+    "domain": "alixepreo[.]online",
+    "summary": "Die Mail bewirbt Einlegesohlen mit Belüftung und Massagezonen.",
+    "excerpt": "Akusoli – Belüftung und Massagezonen.\nAkusoli – Belüftung und Massagezonen.\nPassend für jede Schuhgröße.",
+    "findings": [
+      "Betreff und vorliegender Textauszug stimmen mit Fall 2026-004 (Akusoli) überein. Die sichtbaren Absenderdomains und An-Adressen unterscheiden sich.",
+      "Die sichtbare Absenderdomain stimmt mit Fall 2026-001 (Fuugu) überein. Ob beide Mails dieselbe Versandquelle haben, bleibt offen.",
+      "Der übermittelte Betreff enthält „*** SPAM ***“. Welches System die Markierung hinzugefügt hat, bleibt offen.",
+      "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
+    ]
+  },
+  {
+    "id": "2026-006",
+    "category": "Werbespam",
+    "subject": "Sauberkeit in nur 20 Minuten.",
+    "sender": "Fuugu",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "summary": "Die Mail bewirbt einen Toilettenreiniger mit einer angegebenen Einwirkzeit von rund 20 Minuten.",
+    "excerpt": "Reinigen ganz ohne Aufwand.\nEinfach den Inhalt eines Beutels einfüllen, den Deckel schließen und etwa 20 Minuten einwirken lassen.\nAnschließend einfach die Spülung betätigen.",
+    "sent": "2026-11-18T13:27:53+01:00",
+    "domain": "alixepreo[.]online",
+    "findings": [
+      "Betreff und Textauszug stimmen mit Fall 2026-007 überein. Die sichtbaren Absenderdomains und An-Adressen unterscheiden sich.",
+      "Dieselbe sichtbare Absenderdomain kommt in Fall 2026-001 (Fuugu) vor. Ob beide Mails dieselbe Versandquelle haben, bleibt offen.",
+      "Im übermittelten Betreff fehlt die Markierung „*** SPAM ***“. Eine Filterbewertung ist anhand des Ausschnitts nicht ersichtlich.",
+      "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
+    ]
+  },
+  {
+    "id": "2026-007",
+    "category": "Werbespam",
+    "subject": "Sauberkeit in nur 20 Minuten.",
+    "sender": "Fuugu",
+    "mailbox": "DARC-Postfach (Projektkontext)",
+    "visibleTo": "Andere Domain als das DARC-Postfach · Adresse ausgeblendet",
+    "summary": "Die Mail bewirbt einen Toilettenreiniger mit einer angegebenen Einwirkzeit von rund 20 Minuten.",
+    "excerpt": "Reinigen ganz ohne Aufwand.\nEinfach den Inhalt eines Beutels einfüllen, den Deckel schließen und etwa 20 Minuten einwirken lassen.\nAnschließend einfach die Spülung betätigen.",
+    "sent": "2026-11-18T12:07:20+01:00",
+    "domain": "skin-care[.]boats",
+    "findings": [
+      "Betreff und Textauszug stimmen mit Fall 2026-006 überein. Die sichtbaren Absenderdomains und An-Adressen unterscheiden sich.",
+      "Dieselbe sichtbare Absenderdomain kommt in Fall 2026-002 (Fuugu) vor. Ob beide Mails dieselbe Versandquelle haben, bleibt offen.",
+      "Im übermittelten Betreff fehlt die Markierung „*** SPAM ***“. Eine Filterbewertung ist anhand des Ausschnitts nicht ersichtlich.",
+      "Das sichtbare An-Feld weicht vom DARC-Postfach ab. Der Zustellweg bleibt offen."
+    ]
   }
 ]
